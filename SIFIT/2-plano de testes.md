@@ -21,23 +21,13 @@ Realizar a verificação manual dos principais requisitos funcionais do SIFIT, c
 
 **Incluído:**
 
-* Autenticação de usuário
-* Página inicial e dashboard
-* Check-in e presenças
-* Clientes
-* Matrículas
-* Avaliações físicas
-* Treinamento
-* Financeiro
-* Comercial
-* Relatórios
-* Gestão
-* Anamnese
+* Todos os módulos do menu do sistema: Principal, Operação da Academia, Treinamento, Financeiro, Comercial, Gestão, Saúde, Inteligência e Configurações (29 requisitos, ver Análise de Requisitos)
 
 **Excluído:**
 
-* Recuperação de senha e integrações de pagamento
-* Configurações do sistema (afetam o ambiente de toda a turma)
+* Recuperação de senha
+* Ações que movimentam dinheiro ou enviam mensagens reais (saque e cobrança no Pagar.me, cobrança pelo WhatsApp, executar automações)
+* Salvar alterações em Configurações (afetam o ambiente de toda a turma)
 * Testes em dispositivos móveis
 * Testes de performance ou carga
 
@@ -82,30 +72,47 @@ Realizar a verificação manual dos principais requisitos funcionais do SIFIT, c
 
 | Atividade                   | Data Início | Data Fim   |
 | --------------------------- | ----------- | ---------- |
-| Planejamento de Testes      | 07/10/2026  | 07/10/2026 |
-| Criação de Casos de Teste   | 11/10/2026  | 11/10/2026 |
-| Execução dos Testes Manuais | 11/10/2026  | 11/10/2026 |
-| Registro e Report de Bugs   | 11/11/2026  | 11/10/2026 |
-| Encerramento e Evidências   | 11/10/2026  | 11/10/2026 |
+| Planejamento de Testes      | 08/10/2026  | 08/10/2026 |
+| Criação de Casos de Teste   | xx/xx/2026  | xx/xx/2026 |
+| Execução dos Testes Manuais | xx/xx/2026  | xx/xx/2026 |
+| Registro e Report de Bugs   | xx/xx/2026  | xx/xx/2026 |
+| Encerramento e Evidências   | xx/xx/2026  | xx/xx/2026 |
 
 ---
 
 ### 9. **Módulos a Serem Testados**
 
-| Código RF | Módulo                     | Prioridade |
-| --------- | -------------------------- | ---------- |
-| RF01      | Login                      | Alta       |
-| RF02      | Página Inicial / Dashboard | Média      |
-| RF03      | Check-in e Presenças       | Alta       |
-| RF04      | Clientes                   | Alta       |
-| RF05      | Matrículas                 | Alta       |
-| RF06      | Avaliações Físicas         | Média      |
-| RF07      | Treinamento                | Média      |
-| RF08      | Financeiro                 | Alta       |
-| RF09      | Comercial                  | Média      |
-| RF10      | Relatórios                 | Média      |
-| RF11      | Gestão                     | Baixa      |
-| RF12      | Anamnese                   | Baixa      |
+| Código RF | Módulo                             | Prioridade |
+| --------- | ---------------------------------- | ---------- |
+| RF01      | Login                              | Alta       |
+| RF02      | Página Inicial / Dashboard         | Média      |
+| RF03      | Check-in                           | Alta       |
+| RF04      | Presenças                          | Média      |
+| RF05      | Clientes                           | Alta       |
+| RF06      | Matrículas                         | Alta       |
+| RF07      | Avaliações Físicas                 | Média      |
+| RF08      | Fichas de Treino                   | Média      |
+| RF09      | Exercícios                         | Baixa      |
+| RF10      | Grupos Musculares / Objetivos      | Baixa      |
+| RF11      | Turmas e Grupos                    | Média      |
+| RF12      | SifitBox                           | Média      |
+| RF13      | Categorias Crossfit                | Baixa      |
+| RF14      | Contas a Receber                   | Alta       |
+| RF15      | Contas a Pagar                     | Alta       |
+| RF16      | Caixas                             | Alta       |
+| RF17      | Despesas Fixas                     | Média      |
+| RF18      | Pagar.me                           | Média      |
+| RF19      | Relatórios                         | Média      |
+| RF20      | Prospecção                         | Média      |
+| RF21      | Planos e Formas de Pagamento       | Média      |
+| RF22      | Colaboradores e Funções            | Baixa      |
+| RF23      | Fornecedores e Tipos de Documentos | Baixa      |
+| RF24      | Atividades, Pontuação e Produtos   | Baixa      |
+| RF25      | Enquetes                           | Baixa      |
+| RF26      | Anamnese                           | Média      |
+| RF27      | Inteligência e Automação           | Baixa      |
+| RF28      | Aplicativo                         | Baixa      |
+| RF29      | Configurações                      | Baixa      |
 
 ---
 

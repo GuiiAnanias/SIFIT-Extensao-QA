@@ -9,14 +9,15 @@ A proposta é testar manualmente o SIFIT, um sistema web de gestão para academi
 ```
 SIFIT/
 ├── 1-Analise de requisitos.md
-└── 2-plano de testes.md
+├── 2-plano de testes.md
+└── Cenarios de testes/
 ```
 
 ## Andamento
 
 - [x] Análise de requisitos
 - [x] Plano de testes
-- [ ] Cenários e casos de teste
+- [x] Cenários e casos de teste
 - [ ] Execução dos testes e evidências
 - [ ] Relatório de bugs e relatório final
 
@@ -25,4 +26,3 @@ SIFIT/
 Os testes são manuais, feitos direto no ambiente do sistema. Os casos de teste seguem o formato BDD (Dado / Quando / Então) e as evidências são gravadas em vídeo com a extensão Jam no Chrome. Para conferir se os dados foram gravados certo, uso o MySQL Workbench.
 
 Guilherme Calixto
-14652
